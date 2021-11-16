@@ -1,0 +1,223 @@
+.App {
+  text-align: center;
+}
+*{
+  /* overflow-x: hidden; */
+  /* font-family: "poppins" , "montserrat" , "sans-serif"; */
+}
+.footer{
+  height: 80px;
+  bottom: 0;
+  position: relative;
+  color: white;
+  background: black;
+  width: 100%;
+}
+
+.footer-text{
+ padding-top: 20px;
+ font-size: 15px;
+}
+
+.cards{
+  /* height: 680px; */
+  height:550px;
+  width: 320px;
+  margin: 19px;
+  border: 0.2px solid rgb(233, 233, 233);
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+
+  box-shadow: 10px 14px 25px -14px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 14px 25px -14px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 14px 25px -14px rgba(0,0,0,0.75);
+}
+
+
+.card-img{
+  height: 420px;
+  width: 320px;
+}
+.card-img img {
+  padding: 0px 0px;
+  height: 420px;
+  width: 320px;
+}
+
+.card-desc p{
+  padding: 5px 15px;
+  height:100px;
+  overflow: hidden;
+}
+
+.card-x{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+input#search {
+  color: inherit;
+  padding: 12px 10px;
+  margin: 10px;
+  width: 100vw;
+  border-radius: 5px;
+  border: 2px solid rgb(218, 210, 210);
+  outline: none;
+}
+
+.Trending-title h3{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: rgb(160, 160, 160);
+  display:flex;
+  padding: 35px 0px 0px 25px;
+}
+
+.favourites-title h3{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: rgb(160, 160, 160);
+  /* display:flex; */
+  left: 20px;
+  padding: 35px 0px 0px 25px;
+}
+
+.title{
+  padding: 12px;
+}
+
+
+.rating{
+  position: absolute;
+} 
+
+.rating p{
+  background: greenyellow;
+  padding: 4px;
+  color: black;
+
+}
+.caption{
+  padding: 60px 100px ;
+  margin-bottom: 20%;
+  
+}
+.hlo{
+  color: white;
+  font-size: 45px;
+}
+.quote{
+  color: white;
+  margin-bottom: 5%;
+}
+
+.get-btn{
+  background: none;
+  border: white 2px solid;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+  padding: 8px 20px;
+  margin-top: 20%;
+}
+
+.get-btn:hover{
+  color :rgb(172, 40, 36);
+}
+
+.abt-box{
+  height: 400px;
+  display: flex;
+  width: 600px;
+  right: 50%;
+  bottom: 50%;
+  text-align: center;
+  color: white;
+  border: 2px white solid;
+  border-radius: 13px;
+}
+
+.card-btns{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px
+}
+
+.modal-rating{
+  background: rgb(63, 63, 63);
+  color: white;
+  padding: 5px;
+  margin-left: 8px;
+  font-size: 11px;
+  border-radius: 4px;
+
+}
+
+
+.modal-img img{
+  width: 100px;
+  height:150px;
+  float: left;
+  margin-right: 10px;
+}
+
+.desc{
+  
+}
+
+.release_year p{
+  background: teal;
+  color: white;
+  width: 100px;
+  font-size:13px;
+  padding: 2px 4px;
+  border-radius: 4px;
+  margin-top: 15px;
+}
+
+.error-page{
+  /* background: rgb(240, 240, 240); */
+  width: 100vw;
+  height: 100vh;
+  padding-top: 100px;
+}
+
+.error-page h1{
+  font-size: 60px;
+  font-family: 'montserrat', 'sans-serif';
+  font-weight: 600;
+  color: darkgrey;
+}
+
+.error-page h4{
+  font-family: 'montserrat', 'sans-serif';
+  font-weight: 600;
+  color: darkgrey;
+  padding: 0px 20px ;
+}
+
+.error-page img{ 
+    width: 350px;
+    height: 350px;
+}
+
+
+.no-fav{
+    color: darkgrey;
+}
+
+.card-title{
+  margin-top:10px;
+  font-size:22px;
+  font-weight: 500;
+}
+
+.card-title-alt{
+  margin-top:10px;
+  font-size:18px;
+  font-weight: 500;
+
+}
